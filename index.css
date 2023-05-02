@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+}
+header{
+    background-color: maroon;
+    color: white;
+    height: 50px;
+    padding: 10px 3%;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    padding: 0 16px;
+    text-decoration: none;
+    color: white;
+
+}
+section{
+    padding: 20px 5%;
+}
+.container{
+    display: flex;
+
+}
+.container img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.row img{
+    width: 200px; 
+    height:200px ;
+    object-fit: cover;
+    border-radius:5px ;
+    
+}
